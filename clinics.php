@@ -71,7 +71,7 @@
             $plan_item['planFeature']['trigger'] = $facilityItem->find('.planFeature', 0)->find('h3.trigger', 0)->plaintext;
             $plan_item['planFeature']['planFeatureBody'] = $facilityItem->find('.planFeature', 0)->find('.planFeatureBody', 0)->plaintext;
             $plan_item['planCheckDetail']['trigger'] = $facilityItem->find('.planCheckDetail', 0)->find('h3.trigger', 0)->plaintext;
-            $plan_item['planCheckDetail']['planDetailBody'] = $facilityItem->find('.planCheckDetail', 0)->find('#postPlanTable', 0)->innertext;
+            $plan_item['planCheckDetail']['planDetailBody'] = $facilityItem->find('.planCheckDetail', 0)->find('.planDetailBody', 0)->innertext;
 
             $clinic_plan['clinic_plans'] = $plan_item;
           }
