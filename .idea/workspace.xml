@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147f1120-d83f-4497-b6c4-de9c026a3ea2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinics_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/clinics_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clinics/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
