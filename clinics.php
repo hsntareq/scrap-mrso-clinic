@@ -17,10 +17,10 @@
 
     $clinics = json_decode(file_get_contents('clinics_data.json'));
 
-    //    pr($clinics);
-    //    die;
+    //        pr($clinics);
+    //        die;
     $clinic_result_all = [];
-    foreach ($clinics as $clinic) {
+    foreach ($clinics as $k => $clinic) {
 
 //      pr ($clinic);die;
 
@@ -57,14 +57,15 @@
             $plan_item['planTime']['planTimeBody'] = $facilityItem->find('.planTimeBody', 0)->plaintext;
 
 
+            $plan_item['planTag']['planTagItems'] = [];
             $plan_item['planTag']['trigger'] = $facilityItem->find('.planTag', 0)->find('h3.trigger', 0)->plaintext;
-            foreach ($facilityItem->find('.planTag', 0)->find('.planTagBody ul.tagList') as $planTags) {
+            foreach ($facilityItem->find('.planTag', 0)->find('.planTagBody ul.tagList li') as $planTags) {
               $plan_item['planTag']['planTagItems'][] = $planTags->plaintext;
             }
 
-
+            $plan_item['planRec']['planRecItems'] = [];
             $plan_item['planRec']['trigger'] = $facilityItem->find('.planRec', 0)->find('h3.trigger', 0)->plaintext;
-            foreach ($facilityItem->find('.planRec', 0)->find('.planRecBody ul') as $planRecord) {
+            foreach ($facilityItem->find('.planRec', 0)->find('.planRecBody ul li') as $planRecord) {
               $plan_item['planRec']['planRecItems'][] = $planRecord->plaintext;
             }
 
@@ -77,6 +78,7 @@
           }
 
           $clinic_plan_data[] = $clinic_plan;
+
         }
 
         $clinic_result['clinics'] = $clinic_plan_data;
@@ -85,11 +87,15 @@
 
       $clinic_result_all[] = $clinic_result;
 
+      $fp = fopen('clinics/' . $clinic->slug . '--data.json', 'w');
+      if (fwrite($fp, json_encode($clinic_result_all))) {
+        echo $k . '-done <br>';
+      }
+      fclose($fp);
+
+      die;
     }
 
-    $fp = fopen('all-clinics.json', 'w');
-    fwrite($fp, json_encode($clinic_plan));
-    fclose($fp);
 
     ?>
 

@@ -1,6 +1,7 @@
 <?php
+//phpinfo();die;
 include('simple_html_dom.php');
 
-$data = file_get_contents('clinics_data.json');
+$data = file_get_contents('clinic/hayashi-neurosurgery-clinic--data.json');
 
-pr($data);
+pr(json_decode($data));

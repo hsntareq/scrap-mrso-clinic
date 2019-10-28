@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147f1120-d83f-4497-b6c4-de9c026a3ea2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-clinics.json" beforeDir="false" afterPath="$PROJECT_DIR$/all-clinics.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinics.php" beforeDir="false" afterPath="$PROJECT_DIR$/clinics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel.php" beforeDir="false" afterPath="$PROJECT_DIR$/excel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinics_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/clinics_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -73,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
