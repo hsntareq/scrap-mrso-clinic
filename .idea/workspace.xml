@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147f1120-d83f-4497-b6c4-de9c026a3ea2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all-clinics.json" beforeDir="false" afterPath="$PROJECT_DIR$/all-clinics.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinics.php" beforeDir="false" afterPath="$PROJECT_DIR$/clinics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.json" beforeDir="false" afterPath="$PROJECT_DIR$/2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinics_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/clinics_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp7\htdocs\php\mrso" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
