@@ -1,7 +1,15 @@
 <?php
-//phpinfo();die;
+include('vendor\autoload.php');
+use Stichoza\GoogleTranslate\GoogleTranslate;
+
+$tr = new GoogleTranslate('en'); // Translates into English
+
 include('simple_html_dom.php');
 
-$data = file_get_contents('clinic/hayashi-neurosurgery-clinic--data.json');
+$data = json_decode(file_get_contents('all-clinic-data.json'));
 
-pr(json_decode($data));
+// pr(json_decode($data));
+
+foreach($data as $k=>$clinic){
+    echo ($k+1).'. '.$tr->translate($clinic->title).'<br>';
+}
