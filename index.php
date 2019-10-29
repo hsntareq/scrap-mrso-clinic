@@ -2,7 +2,7 @@
 include('vendor\autoload.php');
 use Stichoza\GoogleTranslate\GoogleTranslate;
 
-$tr = new GoogleTranslate('en'); // Translates into English
+$tr = new GoogleTranslate('en'); 
 
 include('simple_html_dom.php');
 

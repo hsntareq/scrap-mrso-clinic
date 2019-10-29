@@ -17,6 +17,7 @@
 
   include('simple_html_dom.php');
 
+  $tr = new GoogleTranslate('en'); 
 
   $clinics = json_decode(file_get_contents('4.json'));
 
