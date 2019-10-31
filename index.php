@@ -8,7 +8,7 @@ include('simple_html_dom.php');
 
 $data = file_get_contents('mrso-clinic-data.json');
 
-pr($data);
+pr(json_decode($data));
 die;
 foreach($data as $k=>$clinic){
     pr($clinic);die;
